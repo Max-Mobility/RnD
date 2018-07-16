@@ -40,6 +40,13 @@ NY company performed a small (~12 user) survey about powered wheelchair difficul
 
 ## F1Tenth
 
+* First prototype built with ZED camera mount.
+  * Need autonomous program.
+* Second prototype build in process with HD camera mount.
+  * Need to order Elroy board for correct camera connection.
+  * Need to order cable kit for Elroy board.
+  * Need additional LiPo battery pack.  Already on order.
+
 ## Gazebo
 
 * work on in september
