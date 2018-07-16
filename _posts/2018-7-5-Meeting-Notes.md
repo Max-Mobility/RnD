@@ -13,12 +13,12 @@ The operation of powered wheelchairs (PWC) require both manual and mental dexter
 
 This will be accomplished by combining low cost **RGB-D “3D” cameras** and an **IMU near the joystick** with a **smartwatch** to have knowledge of both the environment[1][2] and the user’s physiological state[3] so that **inferences about the user intent can lead to contextually aware decisions** allowing the Co-Chair to adaptively update the amount of shared control with the user. 
 
-![Discovery Development Plan](assets/muc/1-Discovery-Development-Plan.png)
-![Research and  Development Environment](assets/muc/2-Research-and-Development-Environment.png)
-![System Testbeds](assets/muc/3-System-Testbeds.png)
-![Proof of Concept](assets/muc/4-Proof-Of-Concept.png)
-![Feasibility Analysis](assets/muc/5-Feasibility-Analysis.png)
-![Finalist Development Plan](assets/muc/6-Finalist-Development-Plan.png)
+![Discovery Development Plan]({{"assets/muc/1-Discovery-Development-Plan.png" | absolute_url}})
+![Research and  Development Environment]({{"assets/muc/2-Research-and-Development-Environment.png" | absolute_url}})
+![System Testbeds]({{"assets/muc/3-System-Testbeds.png" | absolute_url}})
+![Proof of Concept]({{"assets/muc/4-Proof-Of-Concept.png" | absolute_url}})
+![Feasibility Analysis]({{"assets/muc/5-Feasibility-Analysis.png" | absolute_url}})
+![Finalist Development Plan]({{"assets/muc/6-Finalist-Development-Plan.png" | absolute_url}})
 
 ## Feedback
 

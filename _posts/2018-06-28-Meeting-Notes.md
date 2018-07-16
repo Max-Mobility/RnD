@@ -51,8 +51,8 @@ Steering | Alternative Controls
 Push Detection | ML, Sensor Fusion, Activity Recognition
 Other... | Other...
 
-![sd1](assets/sd.png)
-![sd2](asets/sd2.png)
+![sd1]({{"assets/sd.png" | absolute_url}})
+![sd2]({{"assets/sd2.png" | absolute_url}})
  
 # Eye Gaze
 
@@ -62,7 +62,7 @@ CNN, ML| Machine Learning, Sensor Fusion
 Novel Control interfaces | Alternative Controls, ML
 Hardware | Computer Vision
 
-![eye-tracking](assets/eye-tracking.png)
+![eye-tracking]({{"assets/eye-tracking.png" | absolute_url}})
 
 # Autochair
 
@@ -77,18 +77,18 @@ Shared Control | ml, learning-enabled system, alternative controls, Activity/Int
 Unity Update | Modeling Infrastructure
 Rosmod Update | Rosmod Development Platform
 
-![Path Planning](assets/pathplanning.png)
-![Dynamics and Control](assets/dynamicsandcontrol.png)
-![LES](assets/learningenabledsystems.png)
+![Path Planning]({{"assets/pathplanning.png" | absolute_url}})
+![Dynamics and Control]({{"assets/dynamicsandcontrol.png" | absolute_url}})
+![LES]({{"assets/learningenabledsystems.png" | absolute_url}}) 
 
-![autochair.png](assets/autochair.png)
+![autochair.png]({{"assets/autochair.png" | absolute_url}})
 
 # SIM
 
 Project | Related Work
 --------|----------------
 
-![sim](sim.png)
+![sim]({{"/assets/sim.png" | absolute_url}})
 
 # Ballbot
 
@@ -102,7 +102,7 @@ Project | Related Work
 Reactive Obstacle Avoidance | les, ml
 Mapping | SLAM, ml, sensor fusion
 
-![f110](assets/f110.png)
+![f110]({{"assets/f110.png" | absolute_url}})
 
 # Roomba Testbed
 
@@ -123,7 +123,7 @@ Behavior Testing | modeling infrastructure, rosmod development platform
 Project | Related Work
 --------|----------------
 
-![hololens](assets/hololens.png)
+![hololens]({{"assets/hololens.png" | absolute_url}})
 
 # Alternative Controls
 
@@ -170,7 +170,7 @@ Project | Related Work
 Project | Related Work
 --------|----------------
 
-![Software Development](assets/softwareplatform.png)
+![Software Development]({{"assets/softwareplatform.png" | absolute_url}})
 
 # Machine Learning
 

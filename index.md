@@ -5,5 +5,5 @@
 layout: home
 ---
 
-Just filler text for now
+
 
