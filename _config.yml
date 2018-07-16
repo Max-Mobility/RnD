@@ -27,6 +27,8 @@ collections:
   output: true
  autochair:
   output: true
+ openpose:
+  output: true
 
 header_pages:
  - documentation.md
@@ -36,6 +38,7 @@ header_pages:
  - mobility-unlimited.md
  - roomba.md
  - autochair.md
+ - openpose.md
 
 
 ######################################################################
