@@ -45,6 +45,6 @@ You did not properly set up the `About` file for your project! Be sure you follo
 {% else %}
 # Uh Oh!
 
-You did not properly set up your project! The `title` field in this document's front matter does not match any existing project folder!  Be sure you followed the directions located [here](_documentation/making_a_new_project.md)
+You did not properly set up your project! The `project` field in this document's front matter does not match any existing project folder!  Be sure you followed the directions located [here](_documentation/making_a_new_project.md)
 
 {% endif %}
