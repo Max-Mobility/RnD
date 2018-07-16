@@ -15,8 +15,6 @@
 collections:
  documentation:
   output: true
- meeting-notes:
-  output: true
  gazebo-simulation:
   output: true
  gaze-tracking:
@@ -32,7 +30,6 @@ collections:
 
 header_pages:
  - documentation.md
- - meeting-notes.md
  - gazebo-simulation.md
  - gaze-tracking.md
  - SIM.md
