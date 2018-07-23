@@ -20,12 +20,24 @@ The current Gaze Tracking implementation is based on MIT's [Eye Tracking for Eve
 
 The data pre-processor for the data ingests a full-size image and JSON files describing the location of these features and extracts them to feed to the model. The JSON files are formatted as follows:
 
-#### appleFace.json, appleLeftEye.json, appleRightEye.json
+### appleFace.json, appleLeftEye.json, appleRightEye.json
+
+```json
+{
+    H: 0,
+    W: 0,
+    X: 0,
+    Y: 0,
+    IsValid: 1
+}
+```
+
 - `X`, `Y`: Position of the top-left corner of the bounding box (in pixels). In `appleFace.json`, this value is relative to the top-left corner of the full frame; in `appleLeftEye.json` and `appleRightEye.json`, it is relative to the top-left corner of the *face crop*.
 - `W`, `H`: Width and height of the bounding box (in pixels).
 - `IsValid`: Whether or not there was actually a detection. 1 = detection; 0 = no detection.
 
-#### faceGrid.json
+
+### faceGrid.json
 - `X`, `Y`: Position of the top-left corner of the face box (1-indexed, within a 25 x 25 grid).
 - `W`, `H`: Width and height of the face box.
 - `IsValid`: Whether the data is valid (1) or not (0). This is equivalent to the intersection of the associated `IsValid` arrays in the apple*.json files (since we required samples to have Apple face and eye detections).
