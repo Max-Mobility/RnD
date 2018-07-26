@@ -4,7 +4,7 @@ title: About
 toc: 
  - Discovery Grant Application
  - Finalist Ideas
- - Finalist Assessment Criteria
+ - Product Overview
 ---
 
 

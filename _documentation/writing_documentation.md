@@ -16,7 +16,10 @@ Then edit the front matter within the new file to properly reflect the title of 
 
 # Updating the project's table of contents
 
-By default, a table of contents is generated linking to every separate markdown file within a project's directory (excluding the about page). This is fine if order of presentation does not matter. If, on the more likely hand, you want a table of contents that presents pages in a specific order, then a simple modifcation to the about file's front matter is all that is needed.
+> note ""
+> By default, a table of contents is generated linking to every separate markdown file within a project's directory (excluding the about page). 
+
+The default table of contents is fine if the order of presentation does not matter. If, on the more likely hand, you want a table of contents that presents pages in a specific order, then a simple modifcation to the about file's front matter is all that is needed.
 
 Simply open the about.md file for your project and add a `toc` variable:
 
@@ -31,8 +34,8 @@ toc:
  - Markdown
 ---
 ```
-
-This will create a table of contents with **only the pages specified by `toc` and only if there is a page with a matching title.**
+> error "Be specific about your table of contents!"
+> This will create a table of contents with **only the pages specified by `toc` and only if there is a page with a matching title.**
 
 For example, if your project directory has the following layout
 
@@ -86,7 +89,7 @@ Assuming this structure
 
 the following will work:
 
-File | Link
+From File | Linking To Another...
 -|-
 `index.md` | `[Some Doc](_my_collection/some_doc.md)`
 `index.md` | `[Another Doc](_my_collection/some_subdir/another_doc.md)`
@@ -103,3 +106,111 @@ Images can be inserted using standard markdown:
 ```
 
 Where src can be either an online url or another relative path. If you have many images localy, consider creating an `images` or `figures` folder within your project folder to contain them.
+
+
+# Adding block callouts/alerts
+
+Blocked-styled content is enabled via the (Premonition)[https://github.com/amedia/premonition] plugin.  
+
+Four different alert styles are built in, but custom callouts can be added by following the instructions in the Premonition README
+
+### Note with title
+
+~~~markdown
+ > note "My note"
+ > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+ > ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+ > Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+~~~
+
+> note "My note"
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+> ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+> Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+
+### Note without title
+
+~~~markdown
+ > note ""
+ > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+ > ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+ > Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+~~~
+
+> note ""
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+> ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+> Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+
+### Info box
+
+~~~markdown
+ > info "The information header"
+ > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+ > ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+ > Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+~~~
+
+> info "The information header"
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+> ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+> Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+
+### Warning box
+
+~~~markdown
+ > warning "The information header"
+ > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+ > ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+ > Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+~~~
+
+> warning "The information header"
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+> ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+> Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+
+### Error box
+
+~~~markdown
+ > error "The information header"
+ > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+ > ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+ > Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+~~~
+
+> error "The information header"
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
+> ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
+> Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
+
+### Error box with Markdown
+
+~~~markdown
+ > error "The information header"
+ > [Premonition](https://github.com/amedia/premonition) allows you to add
+ >
+ > * Lists
+ > * like this
+ >
+ > Use *formatting* and add code blocks.
+ >
+ > ~~~~
+ > Isn't that sweet?
+ > ~~~~~
+ > Anything you can do in Markdown, you can do here. Expect from embeds Premonition boxes ;)
+~~~
+
+> error "The information header"
+> [Premonition](https://github.com/amedia/premonition) allows you to add
+>
+> * Lists
+> * like this
+>
+> Use *formatting* and add code blocks.
+>
+>```
+>Isn't that sweet?
+>```
+>
+> Anything you can do in Markdown, you can do here.

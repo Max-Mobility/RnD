@@ -5,6 +5,15 @@ title: Finalist Ideas
 
 ## Finalist Application Brainstorming
 
+> note "Update 7/26/18"
+> After meeting with Darin, Dave, William, and others, it was decided to wrap these ideas into an alternative control device focused on providing end-to-end as-needed assistance for people with ALS. The idea is that this will be a device that can easily scale in the level of assistance it provides and accept the control input most suitable to the user. See [the finalist application page](product-overview.md) for more info.
+
+
+
+
+
+
+
 
 ### Addressing Discovery Application Feedback
 
@@ -77,3 +86,4 @@ Remove the watch component, leaving a "smart joystick" module with varying degre
 ### Demos/Presentation
 
 Overhead video of corridor and obstacle navigation split screened with video of joystick during operation. Compare manual operation vs a simple shared control algorithm vs more complex algorithms. Demonstrate the reduced movement of joystick. Overlay Arrow indicating direction joystick is point on video to show how much/little it swings about.
+

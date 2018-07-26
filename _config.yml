@@ -49,6 +49,9 @@ theme: minima
 
 plugins:
  - jekyll-relative-links
+ - jekyll-feed
+ - premonition
+
 
 relative_links:
  enableD: true
