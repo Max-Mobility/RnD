@@ -5,6 +5,15 @@ title: Finalist Ideas
 
 ## Finalist Application Brainstorming
 
+> note "Update 7/26/18"
+> After meeting with Darin, Dave, William, and others, it was decided to wrap these ideas into an alternative control device focused on providing end-to-end as-needed assistance for people with ALS. The idea is that this will be a device that can easily scale in the level of assistance it provides and accept the control input most suitable to the user. See [the finalist application page](product-overview.md) for more info.
+
+
+
+
+
+
+
 
 ### Addressing Discovery Application Feedback
 
