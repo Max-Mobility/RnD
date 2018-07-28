@@ -58,3 +58,5 @@ relative_links:
  collections: true
 
 baseurl: /RnD
+
+exclude: ['buildSite.sh', 'Gemfile.lock', 'Gemfile']

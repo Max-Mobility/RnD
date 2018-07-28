@@ -5,6 +5,7 @@ toc:
  - Setting Up A Local Documentation Copy
  - Making a New Project
  - Writing Documentation
+ - Updating the Website
  - Markdown
 ---
 
