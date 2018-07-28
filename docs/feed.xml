@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-07-28T16:39:58-05:00</updated><id>/</id><title type="html">rnd</title><subtitle>Centralized repo for R&amp;D documentation</subtitle><entry><title type="html">2018-7-19 R&amp;amp;D Meeting</title><link href="/2018/07/19/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-7-19 R&amp;D Meeting" /><published>2018-07-19T00:00:00-05:00</published><updated>2018-07-19T00:00:00-05:00</updated><id>/2018/07/19/Meeting-Notes</id><content type="html" xml:base="/2018/07/19/Meeting-Notes.html">&lt;h2 id=&quot;gleason-demo&quot;&gt;Gleason Demo&lt;/h2&gt;
+
+&lt;p&gt;Mid September&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Need to have gazed-based control of chair with good UI
+    &lt;ul&gt;
+      &lt;li&gt;Good Interface&lt;/li&gt;
+      &lt;li&gt;Good Filtering to eliminate false positives and determine intent&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Try to show where this will go in the future
+    &lt;ul&gt;
+      &lt;li&gt;Slides&lt;/li&gt;
+      &lt;li&gt;What products will this replace? (end to end spectrum for ALS user)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Need to watch resources to ensure project stays on time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;generic-mounting-hardware&quot;&gt;Generic Mounting Hardware&lt;/h2&gt;
+
+&lt;p&gt;Might be able to get universal chair mounting hardware from Lebanon to aid in prototyping&lt;/p&gt;
+
+&lt;h2 id=&quot;simlim&quot;&gt;SIM/LIM&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Working LIM&lt;/li&gt;
+  &lt;li&gt;Controller is capable of driving SmartDrive motors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;eye-tracking&quot;&gt;Eye Tracking&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start updating model to imporve performance
+    &lt;ul&gt;
+      &lt;li&gt;Relies upon DGX1 – nvidia coming in ~2 weeks&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Work with nvidia engineers to build full workflwo training=&amp;gt;application&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;smartwatch&quot;&gt;Smartwatch&lt;/h2&gt;
+
+&lt;p&gt;Moving along, Ben is on the fence about everything&lt;/p&gt;
+
+&lt;h2 id=&quot;eval-app&quot;&gt;Eval App&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;July 27th marketing meeting&lt;/li&gt;
+  &lt;li&gt;Waiting on Kinvey for push notifications resolution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mobility-unlimited&quot;&gt;Mobility Unlimited&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Focus project on gaze tracking/ALS solution&lt;/li&gt;
+  &lt;li&gt;See if we can mention Team Gleason in Mobility Unlimited&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Gleason Demo</summary></entry><entry><title type="html">2018-7-12 R&amp;amp;D Meeting</title><link href="/2018/07/12/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-7-12 R&amp;D Meeting" /><published>2018-07-12T00:00:00-05:00</published><updated>2018-07-12T00:00:00-05:00</updated><id>/2018/07/12/Meeting-Notes</id><content type="html" xml:base="/2018/07/12/Meeting-Notes.html">&lt;h2 id=&quot;ase-survey&quot;&gt;ASE Survey&lt;/h2&gt;
+
+&lt;p&gt;NY company performed a small (~12 user) survey about powered wheelchair difficulties and user feedback&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problem with tables and seat height potentially injuring hands&lt;/li&gt;
+  &lt;li&gt;Hallways and doors - Destruction
+    &lt;ul&gt;
+      &lt;li&gt;Don’t go to a friend’s house for fear of destroying their home&lt;/li&gt;
+      &lt;li&gt;Same mentality for going out in public&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Perception that manual control == independence&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Don’t want audible alerts&lt;/li&gt;
+  &lt;li&gt;Liked the idea of variable speed wrt object proximity&lt;/li&gt;
+  &lt;li&gt;Want additional sensors
+    &lt;ul&gt;
+      &lt;li&gt;weight&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Want auto-adjusting seat positioning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mobility-unlimited-challenge&quot;&gt;Mobility Unlimited Challenge&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Darren, Ben, William, Dave should meet for business aspects of the application
+    &lt;ul&gt;
+      &lt;li&gt;bring up user feedback/co-creation such as talking with Todd, Gleason, or Tim Shaw&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;autochair&quot;&gt;Autochair&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;work on access to HL sensors&lt;/li&gt;
+  &lt;li&gt;unity project using depth stream&lt;/li&gt;
+  &lt;li&gt;redo things dealing with holotoolkit&lt;/li&gt;
+  &lt;li&gt;spacely CAN
+    &lt;ul&gt;
+      &lt;li&gt;try to get it up within the week or move on&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;R-NET work later (after MUC)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OpenPose on Autochair
+    &lt;ul&gt;
+      &lt;li&gt;combine with HL depth stream to follow people?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;f1tenth&quot;&gt;F1Tenth&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First prototype built with ZED camera mount.
+    &lt;ul&gt;
+      &lt;li&gt;Need autonomous program.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Second prototype build in process with HD camera mount.
+    &lt;ul&gt;
+      &lt;li&gt;Need to order Elroy board for correct camera connection.&lt;/li&gt;
+      &lt;li&gt;Need to order cable kit for Elroy board.&lt;/li&gt;
+      &lt;li&gt;Need additional LiPo battery pack.  Already on order.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gazebo&quot;&gt;Gazebo&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;work on in september&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mx2-testbed&quot;&gt;MX2+ Testbed&lt;/h2&gt;
+
+&lt;h2 id=&quot;sim&quot;&gt;SIM&lt;/h2&gt;</content><author><name></name></author><summary type="html">ASE Survey</summary></entry><entry><title type="html">2018-7-5: Mobility Unlimited Challenge</title><link href="/2018/07/05/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-7-5: Mobility Unlimited Challenge" /><published>2018-07-05T00:00:00-05:00</published><updated>2018-07-05T00:00:00-05:00</updated><id>/2018/07/05/Meeting-Notes</id><content type="html" xml:base="/2018/07/05/Meeting-Notes.html">&lt;h2 id=&quot;submitted-discovery-grant-application&quot;&gt;Submitted Discovery Grant Application&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The Co-Chair. A collaborative navigation, steering, and fitness assistant for powered wheelchair users.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The Co-Chair is an interactive &lt;strong&gt;“plug and play” add-on for any powered wheelchair&lt;/strong&gt; that augments traditional controls by collaborating with the user to provide intelligent, semi-autonomous functionality.&lt;/p&gt;
+
+&lt;p&gt;The operation of powered wheelchairs (PWC) require both manual and mental dexterity. The user must avoid curbs and drop-offs, important since nearly three-fourths of wheelchair-related injuries are caused by tips and falls, while also navigating terrain and avoiding collisions. &lt;strong&gt;The Co-Chair will increase the users physical and mental health by avoiding these accidents and reducing the cognitive load associated with operating a powered wheelchair.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This will be accomplished by combining low cost &lt;strong&gt;RGB-D “3D” cameras&lt;/strong&gt; and an &lt;strong&gt;IMU near the joystick&lt;/strong&gt; with a &lt;strong&gt;smartwatch&lt;/strong&gt; to have knowledge of both the environment[1][2] and the user’s physiological state[3] so that &lt;strong&gt;inferences about the user intent can lead to contextually aware decisions&lt;/strong&gt; allowing the Co-Chair to adaptively update the amount of shared control with the user.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/muc/1-Discovery-Development-Plan.png&quot; alt=&quot;Discovery Development Plan&quot; /&gt;
+&lt;img src=&quot;/assets/muc/2-Research-and-Development-Environment.png&quot; alt=&quot;Research and  Development Environment&quot; /&gt;
+&lt;img src=&quot;/assets/muc/3-System-Testbeds.png&quot; alt=&quot;System Testbeds&quot; /&gt;
+&lt;img src=&quot;/assets/muc/4-Proof-Of-Concept.png&quot; alt=&quot;Proof of Concept&quot; /&gt;
+&lt;img src=&quot;/assets/muc/5-Feasibility-Analysis.png&quot; alt=&quot;Feasibility Analysis&quot; /&gt;
+&lt;img src=&quot;/assets/muc/6-Finalist-Development-Plan.png&quot; alt=&quot;Finalist Development Plan&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In general, the assessors felt that the idea was very feasible and that your idea of using low-costs technologies for your navigation system would make it even more affordable, and that was welcomed. They also felt like the application and the plans were well developed.&lt;/p&gt;
+
+  &lt;p&gt;The key weaknesses of your application were: minimal details on the development of the “watch” algorithms, worries around the use of RGB-D cameras that may lead to navigational errors (as they tend to have outdoor limitations). Some assessors also mentioned that similar products were already being developed by a number of laboratories and design projects, and that it was unclear how innovative it would be.&lt;/p&gt;
+
+  &lt;p&gt;Also, as you know, the main assessment criteria for the Discovery Award was the level of financial need, and it was felt that offering the award to other applicants would have a bigger impact when it came to supporting their entry to the main Challenge.&lt;/p&gt;
+
+  &lt;p&gt;In general, as you can see, your application was well received and I hope this will encourage you to apply for the Main Challenge, deadline 15th August 2018.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;awarded-applications&quot;&gt;Awarded Applications&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project Name&lt;/th&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+      &lt;th&gt;Group&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Highly Mobile Robotic Exoskeleton for Upright Mobility&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Exoskeleton&lt;/td&gt;
+      &lt;td&gt;The Institute for Human &amp;amp; Machine Cognition (IHMC), USA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Exomotion: the most advanced, full mobility wearable robotic exoskeleton&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Exoskeleton&lt;/td&gt;
+      &lt;td&gt;Human in Motion Robotic Inc., Canada&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Gaze-based semi-autonomy for wheelchairs&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Semi-Autonomy, Gaze Detection&lt;/td&gt;
+      &lt;td&gt;Brain and Behavior Lab, Imperial College London, UK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Foot ++&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Rehabilitation/Therapy&lt;/td&gt;
+      &lt;td&gt;Foot++, USA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Towards Life with Standing Mobility Unlimited&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Powered Wheelchair, Exoskeleton&lt;/td&gt;
+      &lt;td&gt;Artificial Intelligence Laboratory, University of Tsukuba, Japan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Intelligent Hoverboard for Wheelchair Balancing (WCHB)&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Manual Addon&lt;/td&gt;
+      &lt;td&gt;Erik Kondo, USA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Physiology-Adaptive and Computer Vision-Assisted Soft Exoskeletons to Support Independent Living across the Continuum of Rehabilitation&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Exoskeleton&lt;/td&gt;
+      &lt;td&gt;Biomechatronics and Intelligent Robotics Lab, City University of New York, City College/University of Texas Medical School/TIRR Memorial Hermann, USA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Enabling Independent Mobility and Social Play for Young Children with Mobility Impairments&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Pediatric Powered Mobility&lt;/td&gt;
+      &lt;td&gt;University of Washington &amp;amp; Oregon State University, USA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Self-balancing wheel for wheelchairs with automatic hub gear box&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Manual Addon&lt;/td&gt;
+      &lt;td&gt;Aesthel, Germany&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Wheelchair with IS COG / Data capture&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Self-Balancing Manual Wheelchair&lt;/td&gt;
+      &lt;td&gt;Phoenix Instinct, UK&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;gaze-based-semi-autonomy-for-wheelchairs&quot;&gt;Gaze-based Semi-autonomy for Wheelchairs&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mobilityunlimited.org/people/brain-and-behavior-lab&quot;&gt;Mobility Unlimited Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://wp.doc.ic.ac.uk/bbl/&quot;&gt;Group Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The team aims to develop a low-cost gaze-based intention decoding interface that can be installed on any existing joystick operated electrical wheelchair. Our technology will allow users to drive-by-eye, without the need to interact with a “user interface,” simply navigating as the users imagine where they want to go. This allows users to give high-level driving intentions (“get me out of the room”) instead of having to fiddle around with complicated manoeuvres, these are handled by a semi-autonomous AI for navigation. The system consists of a laptop and off-the-shelf sensors, leading to a low-cost upgrade for any powered wheelchair.&lt;/p&gt;
+
+&lt;h2 id=&quot;finalist-application&quot;&gt;Finalist Application&lt;/h2&gt;
+
+&lt;h3 id=&quot;addressing-feedback&quot;&gt;Addressing Feedback&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The key weaknesses of your application were: minimal details on the development of the “watch” algorithms&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nuke the watch&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Double down on the watch&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;worries around the use of RGB-D cameras that may lead to navigational errors (as they tend to have outdoor limitations)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FLIR camera?&lt;/li&gt;
+  &lt;li&gt;Alternatives?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some assessors also mentioned that similar products were already being developed by a number of laboratories and design projects, and that it was unclear how innovative it would be.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Emphasize innovative components&lt;/li&gt;
+  &lt;li&gt;Develop a better product development plan than a university can achieve&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;finalist-assessment-criteria&quot;&gt;Finalist Assessment Criteria&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When selecting the Discovery Awardees and the Finalists, entrants will be assessed and selected on the basis of their &lt;strong&gt;potential&lt;/strong&gt; against the judging criteria.&lt;/p&gt;
+
+  &lt;p&gt;When the winner is selected, Finalists will have to &lt;strong&gt;demonstrate&lt;/strong&gt; how they meet the judging Criteria.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mobilityunlimited.org/handbook/what-were-looking#paragraph-132&quot;&gt;https://www.mobilityunlimited.org/handbook/what-were-looking#paragraph-132&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Innovation&lt;/li&gt;
+  &lt;li&gt;Insight and Impact&lt;/li&gt;
+  &lt;li&gt;Functionality and Usability&lt;/li&gt;
+  &lt;li&gt;Quality and Safety&lt;/li&gt;
+  &lt;li&gt;Market Potential and Affordability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;updates-to-product-idea&quot;&gt;Updates To Product Idea&lt;/h3&gt;
+
+&lt;p&gt;Remove the watch component, leaving a “smart joystick” module with varying degrees of semi-autonomy. Include an additional camera facing the user for eye-gaze detection for use in contextually changing the degree of autonomy as well as an alternative control input.&lt;/p&gt;
+
+&lt;h4 id=&quot;goal-behavior&quot;&gt;Goal Behavior&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Maintain a vision-based map of the surrounding area&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Identify people, curbs, ramps, and drop offs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Perform obstacle avoidance and social path planning&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enable varying degrees of shared control, or allow dynamically changing amount of shared control&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Selectable Control inputs (joystick, eye-gaze)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Universal” controller for mulitple PWC devices&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;onboard-sensors-and-hardware&quot;&gt;Onboard Sensors and Hardware&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Forward-facing rgb camera&lt;/li&gt;
+  &lt;li&gt;Forward-facing flir camera&lt;/li&gt;
+  &lt;li&gt;User-facing rgb camera&lt;/li&gt;
+  &lt;li&gt;IMU&lt;/li&gt;
+  &lt;li&gt;Jetson TX2 and small footprint mount&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;challenges&quot;&gt;Challenges&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Plug-N-Play on different chairs requires adapting to different chairs (dynamics/kinematics) and different users.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For good HRI, need some sort of feedback to the user (auditory, haptic, vibration, etc)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Social interation and social pathplanning&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;prototypes&quot;&gt;Prototypes&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;/gaze-tracking.html&quot;&gt;Gaze Tracker&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/roomba.html&quot;&gt;Roomba Mobile Platform&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/autochair.html&quot;&gt;Autochair Platform&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/gazebo-simulation.html&quot;&gt;Gazebo Simulation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;user-feedback-options&quot;&gt;User Feedback Options&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Todd-the-Quadfather&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gleason&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tim Shaw&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Submitted Discovery Grant Application</summary></entry><entry><title type="html">2018-6-28 R&amp;amp;D Meeting</title><link href="/meeting/notes/2018/06/28/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-6-28 R&amp;D Meeting" /><published>2018-06-28T00:00:00-05:00</published><updated>2018-06-28T00:00:00-05:00</updated><id>/meeting/notes/2018/06/28/Meeting-Notes</id><content type="html" xml:base="/meeting/notes/2018/06/28/Meeting-Notes.html">&lt;p&gt;Projects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Eval App&lt;/li&gt;
+  &lt;li&gt;Pushtracker App&lt;/li&gt;
+  &lt;li&gt;Other Apps&lt;/li&gt;
+  &lt;li&gt;Pushtracker Hardware&lt;/li&gt;
+  &lt;li&gt;Smartdrive&lt;/li&gt;
+  &lt;li&gt;Eye Gaze&lt;/li&gt;
+  &lt;li&gt;Autochair&lt;/li&gt;
+  &lt;li&gt;Sim&lt;/li&gt;
+  &lt;li&gt;Ballbot&lt;/li&gt;
+  &lt;li&gt;F1/10 Testbed&lt;/li&gt;
+  &lt;li&gt;Roomba Testbed&lt;/li&gt;
+  &lt;li&gt;Gazebo Simulation&lt;/li&gt;
+  &lt;li&gt;Hololens&lt;/li&gt;
+  &lt;li&gt;Alternative Controls&lt;/li&gt;
+  &lt;li&gt;Activity Recognition&lt;/li&gt;
+  &lt;li&gt;Learning-Enabled Systems&lt;/li&gt;
+  &lt;li&gt;Robotic Arm&lt;/li&gt;
+  &lt;li&gt;Computer Vision&lt;/li&gt;
+  &lt;li&gt;SLAM&lt;/li&gt;
+  &lt;li&gt;Sensor Fusion&lt;/li&gt;
+  &lt;li&gt;Modeling Infrastructure&lt;/li&gt;
+  &lt;li&gt;Rosmod Development Platform&lt;/li&gt;
+  &lt;li&gt;Machine Learning&lt;/li&gt;
+  &lt;li&gt;Others…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;apps&quot;&gt;Apps&lt;/h1&gt;
+
+&lt;h1 id=&quot;pushtracker&quot;&gt;Pushtracker&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;Related Work&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Smartwatch&lt;/td&gt;
+      &lt;td&gt;Apps, Sensor Fusion, Machine Learning, learning-enabled systems&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;smartdrive&quot;&gt;Smartdrive&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;Related Work&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Induction Motor&lt;/td&gt;
+      &lt;td&gt;Sim&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Balldrive&lt;/td&gt;
+      &lt;td&gt;Sim, ballbot&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Braking&lt;/td&gt;
+      &lt;td&gt;Alternative Controls,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Steering&lt;/td&gt;
+      &lt;td&gt;Alternative Controls&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Push Detection&lt;/td&gt;
+      &lt;td&gt;ML, Sensor Fusion, Activity Recognition&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Other…&lt;/td&gt;
+      &lt;td&gt;Other…&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sd.png&quot; alt=&quot;sd1&quot; /&gt;
+&lt;img src=&quot;/assets/sd2.png&quot; alt=&quot;sd2&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;eye-gaze&quot;&gt;Eye Gaze&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;Related Work&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CNN, ML&lt;/td&gt;
+      &lt;td&gt;Machine Learning, Sensor Fusion&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Novel Control interfaces&lt;/td&gt;
+      &lt;td&gt;Alternative Controls, ML&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hardware&lt;/td&gt;
+      &lt;td&gt;Computer Vision&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/eye-tracking.png&quot; alt=&quot;eye-tracking&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;autochair&quot;&gt;Autochair&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;Related Work&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Safety (sonar, drop-off, walls)&lt;/td&gt;
+      &lt;td&gt;Machine Learning, Sensor Fusion&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perception (semantic mapping, image segmentation, person identification, intent-recognition)&lt;/td&gt;
+      &lt;td&gt;ML, Sensor Fusion, Computer Vision,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Control (kinematics, dynamics, model-predictive control)&lt;/td&gt;
+      &lt;td&gt;modeling infrastructure, ML, learning-enabled systems&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Path planning with social constraints&lt;/td&gt;
+      &lt;td&gt;ml, modeling infrastructure, computer vision, SLAM, learning-enabled systems&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Activity/Intent recognition&lt;/td&gt;
+      &lt;td&gt;ML, Activity Recognition, learning-enabled system&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Shared Control&lt;/td&gt;
+      &lt;td&gt;ml, learning-enabled system, alternative controls, Activity/Intent Recognition&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Unity Update&lt;/td&gt;
+      &lt;td&gt;Modeling Infrastructure&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rosmod Update&lt;/td&gt;
+      &lt;td&gt;Rosmod Development Platform&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/pathplanning.png&quot; alt=&quot;Path Planning&quot; /&gt;
+&lt;img src=&quot;/assets/dynamicsandcontrol.png&quot; alt=&quot;Dynamics and Control&quot; /&gt;
+&lt;img src=&quot;/assets/learningenabledsystems.png&quot; alt=&quot;LES&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/autochair.png&quot; alt=&quot;autochair.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;sim&quot;&gt;SIM&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sim.png&quot; alt=&quot;sim&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ballbot&quot;&gt;Ballbot&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;h1 id=&quot;f110-testbed&quot;&gt;F1/10 Testbed&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;Related Work&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Reactive Obstacle Avoidance&lt;/td&gt;
+      &lt;td&gt;les, ml&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mapping&lt;/td&gt;
+      &lt;td&gt;SLAM, ml, sensor fusion&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/f110.png&quot; alt=&quot;f110&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;roomba-testbed&quot;&gt;Roomba Testbed&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;Related Work&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Path planning with social constraints&lt;/td&gt;
+      &lt;td&gt;ml, modeling infrastructure, computer vision, SLAM, learning-enabled systems&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sensor Testing and Development&lt;/td&gt;
+      &lt;td&gt;sensor fusion, modeling infrastructure&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;gazebo-simulation&quot;&gt;Gazebo Simulation&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;Related Work&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dynamics and Controls Development&lt;/td&gt;
+      &lt;td&gt;ml, les, sensor fusion&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Behavior Testing&lt;/td&gt;
+      &lt;td&gt;modeling infrastructure, rosmod development platform&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;hololens&quot;&gt;Hololens&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/hololens.png&quot; alt=&quot;hololens&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;alternative-controls&quot;&gt;Alternative Controls&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;h1 id=&quot;activity-recognition&quot;&gt;Activity Recognition&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;h1 id=&quot;learning-enabled-systems&quot;&gt;Learning-Enabled Systems&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;h1 id=&quot;robotic-arm&quot;&gt;Robotic Arm&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;h1 id=&quot;computer-vision&quot;&gt;Computer Vision&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;h1 id=&quot;slam&quot;&gt;SLAM&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;h1 id=&quot;sensor-fusion&quot;&gt;Sensor Fusion&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;h1 id=&quot;modeling-infrastructure&quot;&gt;Modeling Infrastructure&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;h1 id=&quot;rosmod-development-platform&quot;&gt;Rosmod Development Platform&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/softwareplatform.png&quot; alt=&quot;Software Development&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h1&gt;
+
+&lt;p&gt;Project | Related Work
+——–|—————-&lt;/p&gt;</content><author><name></name></author><summary type="html">Projects:</summary></entry></feed>

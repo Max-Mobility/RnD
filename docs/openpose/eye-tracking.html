@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Eye Tracking Integration | rnd</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Eye Tracking Integration" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An ideal application of OpenPose would be integration with Gaze Tracking." />
+<meta property="og:description" content="An ideal application of OpenPose would be integration with Gaze Tracking." />
+<meta property="og:site_name" content="rnd" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-07-28T16:39:58-05:00" />
+<script type="application/ld+json">
+{"description":"An ideal application of OpenPose would be integration with Gaze Tracking.","@type":"BlogPosting","url":"/openpose/eye-tracking.html","headline":"Eye Tracking Integration","dateModified":"2018-07-28T16:39:58-05:00","datePublished":"2018-07-28T16:39:58-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/openpose/eye-tracking.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="rnd" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">rnd</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/documentation.html">Documentation Guide</a><a class="page-link" href="/gazebo-simulation.html">Gazebo Simulation</a><a class="page-link" href="/gaze-tracking.html">Gaze Tracking</a><a class="page-link" href="/SIM.html">Spherical ACIM</a><a class="page-link" href="/mobility-unlimited.html">Mobility Unlimited</a><a class="page-link" href="/roomba.html">Roomba</a><a class="page-link" href="/autochair.html">Autochair</a><a class="page-link" href="/openpose.html">OpenPose</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Eye Tracking Integration</h1>
+  </header>
+
+  <div class="post-content">
+    <p>An ideal application of OpenPose would be integration with <a href="/gaze-tracking.html">Gaze
+Tracking</a>.</p>
+
+<p>The current gaze tracking application needs a description of eye and
+face locations within an image.  Openpose generates a json file with
+these locations automatically.</p>
+
+<h2 id="gaze-tracking-data-input">Gaze Tracking Data Input</h2>
+
+<p>The current Gaze Tracking implementation is based on MIT’s <a href="https://github.com/CSAILVision/GazeCapture">Eye Tracking for Everyone</a> (Krafka et al., 2016). The trained model accepts four inputs:</p>
+<ul>
+  <li>224x224 image of the face</li>
+  <li>224x224 image of the left eye</li>
+  <li>224x224 image of the right eye</li>
+  <li>25x25 face grid - a 25 x 25 binary occupancy grid describing the location of the face in the image</li>
+</ul>
+
+<p>The data pre-processor for the data ingests a full-size image and JSON files describing the location of these features and extracts them to feed to the model. The JSON files are formatted as follows:</p>
+
+<h3 id="applefacejson-applelefteyejson-applerighteyejson">appleFace.json, appleLeftEye.json, appleRightEye.json</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="err">H</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="err">W</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="err">X</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="err">Y</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="err">IsValid</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="highlighter-rouge">X</code>, <code class="highlighter-rouge">Y</code>: Position of the top-left corner of the bounding box (in pixels). In <code class="highlighter-rouge">appleFace.json</code>, this value is relative to the top-left corner of the full frame; in <code class="highlighter-rouge">appleLeftEye.json</code> and <code class="highlighter-rouge">appleRightEye.json</code>, it is relative to the top-left corner of the <em>face crop</em>.</li>
+  <li><code class="highlighter-rouge">W</code>, <code class="highlighter-rouge">H</code>: Width and height of the bounding box (in pixels).</li>
+  <li><code class="highlighter-rouge">IsValid</code>: Whether or not there was actually a detection. 1 = detection; 0 = no detection.</li>
+</ul>
+
+<h3 id="facegridjson">faceGrid.json</h3>
+<ul>
+  <li><code class="highlighter-rouge">X</code>, <code class="highlighter-rouge">Y</code>: Position of the top-left corner of the face box (1-indexed, within a 25 x 25 grid).</li>
+  <li><code class="highlighter-rouge">W</code>, <code class="highlighter-rouge">H</code>: Width and height of the face box.</li>
+  <li><code class="highlighter-rouge">IsValid</code>: Whether the data is valid (1) or not (0). This is equivalent to the intersection of the associated <code class="highlighter-rouge">IsValid</code> arrays in the apple*.json files (since we required samples to have Apple face and eye detections).</li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">rnd</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">rnd</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Centralized repo for R&amp;D documentation</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

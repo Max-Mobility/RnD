@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Project Roadmap | rnd</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Project Roadmap" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Objective Accurately estimate gaze direction of a user using inexpensive, readily-available cameras" />
+<meta property="og:description" content="Objective Accurately estimate gaze direction of a user using inexpensive, readily-available cameras" />
+<meta property="og:site_name" content="rnd" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-07-28T16:39:58-05:00" />
+<script type="application/ld+json">
+{"description":"Objective Accurately estimate gaze direction of a user using inexpensive, readily-available cameras","@type":"BlogPosting","url":"/gaze-tracking/project_roadmap.html","headline":"Project Roadmap","dateModified":"2018-07-28T16:39:58-05:00","datePublished":"2018-07-28T16:39:58-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/gaze-tracking/project_roadmap.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="rnd" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">rnd</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/documentation.html">Documentation Guide</a><a class="page-link" href="/gazebo-simulation.html">Gazebo Simulation</a><a class="page-link" href="/gaze-tracking.html">Gaze Tracking</a><a class="page-link" href="/SIM.html">Spherical ACIM</a><a class="page-link" href="/mobility-unlimited.html">Mobility Unlimited</a><a class="page-link" href="/roomba.html">Roomba</a><a class="page-link" href="/autochair.html">Autochair</a><a class="page-link" href="/openpose.html">OpenPose</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Project Roadmap</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="objective">Objective</h1>
+<p>Accurately estimate gaze direction of a user using inexpensive, readily-available cameras</p>
+
+<h1 id="applicationrationale">Application/Rationale</h1>
+<p>Gaze-based navigation control for powered wheelchair users</p>
+
+<h1 id="performance-objectivesrequirements">Performance Objectives/Requirements:</h1>
+<ol>
+  <li>Shall be able to track gaze of all users with various eye structures (large vs. small eyes, covering of iris, contacts, glasses, etc.)</li>
+  <li>Shall be capable of tracking gaze in common lighting settings (bright, dim, outdoors, various color temperatures)</li>
+  <li>Shall use only inexpensive, readily-available cameras and no additional sensors to track eyes/gaze</li>
+  <li>Shall be capable of tracking gaze at “acceptable” rate on inexpensive hardware capable of being attached to powered wheelchairs (SBC such as RPi)</li>
+  <li>Shall be unobstrusive to user</li>
+  <li>Shall achieve “acceptable” accuracy</li>
+</ol>
+
+<h1 id="deliverables-and-desired-outcomes">Deliverables and Desired Outcomes:</h1>
+<ol>
+  <li>Software package capable of gaze estimation meeting defined performance requirements
+    <ul>
+      <li>Shall return a gaze vector of tracked user</li>
+    </ul>
+  </li>
+  <li>Defined operating parameters for software package
+    <ul>
+      <li>Angular accuracy of gaze estimation</li>
+      <li>Max/min detection distance and angle (between sensor and user)</li>
+      <li>Calibration requirements</li>
+    </ul>
+  </li>
+  <li>Infrastructure and pipeline for data collection and analysis</li>
+  <li>Machine learning infrastructure and environment
+    <ul>
+      <li>Allow for easy iteration for model training</li>
+      <li>Allow for rapid development for future projects</li>
+    </ul>
+  </li>
+  <li>Open source library for gaze tracking data</li>
+</ol>
+
+<h1 id="project-roadmap">Project roadmap</h1>
+<ol>
+  <li>Research eye-tracking and current solutions - Week 1 (6/18-6/22)
+    <ul>
+      <li>Study both ML and non-ML solutions</li>
+      <li>Determine performance parameters and limitations</li>
+      <li>FINDINGS: <a href="http://arxiv.org/pdf/1504.02863.pdf">Appearance-Based Gaze Estimation in the Wild</a> (Zhang et al., 2015), <a href="https://arxiv.org/pdf/1508.01244.pdf">TabletGaze: Unconstrained Appearance-based Gaze Estimation</a> (Huang et al., 2016), and <a href="http://gazecapture.csail.mit.edu/">Eye tracking for everyone</a> (Krafka et al., 2016) have the current leading solutions matching design requirements. Additionally, all three have large datasets in non-laboratory environments that can be used to train a new model.
+in Mobile Tablets</li>
+    </ul>
+  </li>
+  <li>Resarch Machine Learning - Week 1-2 (6/18-6/29)
+    <ul>
+      <li>Study current techniques and model architectures</li>
+      <li>Study current tools for building ML pipelines
+        <ul>
+          <li>Examples include Deepforge, Tensorflow, Caffe, Torch, Keras, etc.</li>
+          <li>FINDINGS: Tensorflow is currently the most widely supported platform for building deep learning models. Keras is the most widely supported wrapper for Tensorflow, making the code less verbose and better-suited for learning &amp; experimentation. The current implementation plan is to use Keras for testing and rapid prototyping and shift to direct implementation in TensorFlow in later stages of product development.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Replicate performance of current state-of-the-art solutions - Week 2-3 (6/25-7/6)
+    <ul>
+      <li>Krafka’s <a href="http://gazecapture.csail.mit.edu/">Eye tracking for everyone</a> (Krafka et al., 2016)</li>
+      <li>Build testing environment and evaluate performance</li>
+    </ul>
+  </li>
+  <li>Build codebase for “plug-n-play” ML development - Week 3 (7/2-7/6)
+    <ul>
+      <li>Aim to minimize work required to train and implement various ML models</li>
+    </ul>
+  </li>
+  <li>Build new ML Model - Week 4-7 (7/9-8/3)
+    <ul>
+      <li>Ignore runtime performance optimization</li>
+      <li>Evaluate performance in testing environment</li>
+      <li>Iterate and re-evaluate</li>
+    </ul>
+  </li>
+  <li>Evaluate performance and progress, build continued roadmap</li>
+</ol>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">rnd</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">rnd</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Centralized repo for R&amp;D documentation</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
