@@ -15,11 +15,13 @@ This device will:
 2. Identify and avoid obstacles
 3. Infer the intent of the user
 4. Identify and react to people
-5. Seamlessly share control of the chair between the user and onboard systems
+5. Seamlessly share control of the chair between the user and onboard
+   systems
 
-> info "What does it mean to react to a person?"  In its simplest
-> form, people can be treated as just another obstacle -- something to
-> be navigated around in the most efficient or quickest way possible.
+> info "What does it mean to react to a person?"
+> In its simplest form, people can be treated as just another obstacle
+> -- something to be navigated around in the most efficient or
+> quickest way possible.
 > 
 > But in reality, this is not feasible. An individual has their own
 > `social space` to be considered. In most cases it is better to
@@ -42,7 +44,7 @@ individual's control input needs, from initially being capable of
 operating a standard inductive joystick, to control through head
 movement, all the way to gaze detection.
 
-In addition, 
+In addition,
 
 ## Alternative Controls
 
