@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-07-28T16:39:58-05:00</updated><id>/</id><title type="html">rnd</title><subtitle>Centralized repo for R&amp;D documentation</subtitle><entry><title type="html">2018-7-19 R&amp;amp;D Meeting</title><link href="/2018/07/19/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-7-19 R&amp;D Meeting" /><published>2018-07-19T00:00:00-05:00</published><updated>2018-07-19T00:00:00-05:00</updated><id>/2018/07/19/Meeting-Notes</id><content type="html" xml:base="/2018/07/19/Meeting-Notes.html">&lt;h2 id=&quot;gleason-demo&quot;&gt;Gleason Demo&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="/RnD/feed.xml" rel="self" type="application/atom+xml" /><link href="/RnD/" rel="alternate" type="text/html" /><updated>2018-07-28T17:14:16-05:00</updated><id>/RnD/</id><title type="html">rnd</title><subtitle>Centralized repo for R&amp;D documentation</subtitle><entry><title type="html">2018-7-19 R&amp;amp;D Meeting</title><link href="/RnD/2018/07/19/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-7-19 R&amp;D Meeting" /><published>2018-07-19T00:00:00-05:00</published><updated>2018-07-19T00:00:00-05:00</updated><id>/RnD/2018/07/19/Meeting-Notes</id><content type="html" xml:base="/RnD/2018/07/19/Meeting-Notes.html">&lt;h2 id=&quot;gleason-demo&quot;&gt;Gleason Demo&lt;/h2&gt;
 
 &lt;p&gt;Mid September&lt;/p&gt;
 
@@ -56,7 +56,7 @@
 &lt;ul&gt;
   &lt;li&gt;Focus project on gaze tracking/ALS solution&lt;/li&gt;
   &lt;li&gt;See if we can mention Team Gleason in Mobility Unlimited&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Gleason Demo</summary></entry><entry><title type="html">2018-7-12 R&amp;amp;D Meeting</title><link href="/2018/07/12/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-7-12 R&amp;D Meeting" /><published>2018-07-12T00:00:00-05:00</published><updated>2018-07-12T00:00:00-05:00</updated><id>/2018/07/12/Meeting-Notes</id><content type="html" xml:base="/2018/07/12/Meeting-Notes.html">&lt;h2 id=&quot;ase-survey&quot;&gt;ASE Survey&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Gleason Demo</summary></entry><entry><title type="html">2018-7-12 R&amp;amp;D Meeting</title><link href="/RnD/2018/07/12/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-7-12 R&amp;D Meeting" /><published>2018-07-12T00:00:00-05:00</published><updated>2018-07-12T00:00:00-05:00</updated><id>/RnD/2018/07/12/Meeting-Notes</id><content type="html" xml:base="/RnD/2018/07/12/Meeting-Notes.html">&lt;h2 id=&quot;ase-survey&quot;&gt;ASE Survey&lt;/h2&gt;
 
 &lt;p&gt;NY company performed a small (~12 user) survey about powered wheelchair difficulties and user feedback&lt;/p&gt;
 
@@ -138,7 +138,7 @@
 
 &lt;h2 id=&quot;mx2-testbed&quot;&gt;MX2+ Testbed&lt;/h2&gt;
 
-&lt;h2 id=&quot;sim&quot;&gt;SIM&lt;/h2&gt;</content><author><name></name></author><summary type="html">ASE Survey</summary></entry><entry><title type="html">2018-7-5: Mobility Unlimited Challenge</title><link href="/2018/07/05/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-7-5: Mobility Unlimited Challenge" /><published>2018-07-05T00:00:00-05:00</published><updated>2018-07-05T00:00:00-05:00</updated><id>/2018/07/05/Meeting-Notes</id><content type="html" xml:base="/2018/07/05/Meeting-Notes.html">&lt;h2 id=&quot;submitted-discovery-grant-application&quot;&gt;Submitted Discovery Grant Application&lt;/h2&gt;
+&lt;h2 id=&quot;sim&quot;&gt;SIM&lt;/h2&gt;</content><author><name></name></author><summary type="html">ASE Survey</summary></entry><entry><title type="html">2018-7-5: Mobility Unlimited Challenge</title><link href="/RnD/2018/07/05/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-7-5: Mobility Unlimited Challenge" /><published>2018-07-05T00:00:00-05:00</published><updated>2018-07-05T00:00:00-05:00</updated><id>/RnD/2018/07/05/Meeting-Notes</id><content type="html" xml:base="/RnD/2018/07/05/Meeting-Notes.html">&lt;h2 id=&quot;submitted-discovery-grant-application&quot;&gt;Submitted Discovery Grant Application&lt;/h2&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The Co-Chair. A collaborative navigation, steering, and fitness assistant for powered wheelchair users.&lt;/code&gt;&lt;/p&gt;
 
@@ -148,12 +148,12 @@
 
 &lt;p&gt;This will be accomplished by combining low cost &lt;strong&gt;RGB-D “3D” cameras&lt;/strong&gt; and an &lt;strong&gt;IMU near the joystick&lt;/strong&gt; with a &lt;strong&gt;smartwatch&lt;/strong&gt; to have knowledge of both the environment[1][2] and the user’s physiological state[3] so that &lt;strong&gt;inferences about the user intent can lead to contextually aware decisions&lt;/strong&gt; allowing the Co-Chair to adaptively update the amount of shared control with the user.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/muc/1-Discovery-Development-Plan.png&quot; alt=&quot;Discovery Development Plan&quot; /&gt;
-&lt;img src=&quot;/assets/muc/2-Research-and-Development-Environment.png&quot; alt=&quot;Research and  Development Environment&quot; /&gt;
-&lt;img src=&quot;/assets/muc/3-System-Testbeds.png&quot; alt=&quot;System Testbeds&quot; /&gt;
-&lt;img src=&quot;/assets/muc/4-Proof-Of-Concept.png&quot; alt=&quot;Proof of Concept&quot; /&gt;
-&lt;img src=&quot;/assets/muc/5-Feasibility-Analysis.png&quot; alt=&quot;Feasibility Analysis&quot; /&gt;
-&lt;img src=&quot;/assets/muc/6-Finalist-Development-Plan.png&quot; alt=&quot;Finalist Development Plan&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/RnD/assets/muc/1-Discovery-Development-Plan.png&quot; alt=&quot;Discovery Development Plan&quot; /&gt;
+&lt;img src=&quot;/RnD/assets/muc/2-Research-and-Development-Environment.png&quot; alt=&quot;Research and  Development Environment&quot; /&gt;
+&lt;img src=&quot;/RnD/assets/muc/3-System-Testbeds.png&quot; alt=&quot;System Testbeds&quot; /&gt;
+&lt;img src=&quot;/RnD/assets/muc/4-Proof-Of-Concept.png&quot; alt=&quot;Proof of Concept&quot; /&gt;
+&lt;img src=&quot;/RnD/assets/muc/5-Feasibility-Analysis.png&quot; alt=&quot;Feasibility Analysis&quot; /&gt;
+&lt;img src=&quot;/RnD/assets/muc/6-Finalist-Development-Plan.png&quot; alt=&quot;Finalist Development Plan&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
 
@@ -341,10 +341,10 @@
 
 &lt;h4 id=&quot;prototypes&quot;&gt;Prototypes&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&quot;/gaze-tracking.html&quot;&gt;Gaze Tracker&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;/roomba.html&quot;&gt;Roomba Mobile Platform&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;/autochair.html&quot;&gt;Autochair Platform&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;/gazebo-simulation.html&quot;&gt;Gazebo Simulation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/RnD/gaze-tracking.html&quot;&gt;Gaze Tracker&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/RnD/roomba.html&quot;&gt;Roomba Mobile Platform&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/RnD/autochair.html&quot;&gt;Autochair Platform&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/RnD/gazebo-simulation.html&quot;&gt;Gazebo Simulation&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;user-feedback-options&quot;&gt;User Feedback Options&lt;/h4&gt;
 
@@ -358,7 +358,7 @@
   &lt;li&gt;
     &lt;p&gt;Tim Shaw&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Submitted Discovery Grant Application</summary></entry><entry><title type="html">2018-6-28 R&amp;amp;D Meeting</title><link href="/meeting/notes/2018/06/28/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-6-28 R&amp;D Meeting" /><published>2018-06-28T00:00:00-05:00</published><updated>2018-06-28T00:00:00-05:00</updated><id>/meeting/notes/2018/06/28/Meeting-Notes</id><content type="html" xml:base="/meeting/notes/2018/06/28/Meeting-Notes.html">&lt;p&gt;Projects:&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Submitted Discovery Grant Application</summary></entry><entry><title type="html">2018-6-28 R&amp;amp;D Meeting</title><link href="/RnD/meeting/notes/2018/06/28/Meeting-Notes.html" rel="alternate" type="text/html" title="2018-6-28 R&amp;D Meeting" /><published>2018-06-28T00:00:00-05:00</published><updated>2018-06-28T00:00:00-05:00</updated><id>/RnD/meeting/notes/2018/06/28/Meeting-Notes</id><content type="html" xml:base="/RnD/meeting/notes/2018/06/28/Meeting-Notes.html">&lt;p&gt;Projects:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Eval App&lt;/li&gt;
@@ -443,8 +443,8 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/sd.png&quot; alt=&quot;sd1&quot; /&gt;
-&lt;img src=&quot;/assets/sd2.png&quot; alt=&quot;sd2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/RnD/assets/sd.png&quot; alt=&quot;sd1&quot; /&gt;
+&lt;img src=&quot;/RnD/assets/sd2.png&quot; alt=&quot;sd2&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;eye-gaze&quot;&gt;Eye Gaze&lt;/h1&gt;
 
@@ -471,7 +471,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/eye-tracking.png&quot; alt=&quot;eye-tracking&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/RnD/assets/eye-tracking.png&quot; alt=&quot;eye-tracking&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;autochair&quot;&gt;Autochair&lt;/h1&gt;
 
@@ -518,18 +518,18 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/pathplanning.png&quot; alt=&quot;Path Planning&quot; /&gt;
-&lt;img src=&quot;/assets/dynamicsandcontrol.png&quot; alt=&quot;Dynamics and Control&quot; /&gt;
-&lt;img src=&quot;/assets/learningenabledsystems.png&quot; alt=&quot;LES&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/RnD/assets/pathplanning.png&quot; alt=&quot;Path Planning&quot; /&gt;
+&lt;img src=&quot;/RnD/assets/dynamicsandcontrol.png&quot; alt=&quot;Dynamics and Control&quot; /&gt;
+&lt;img src=&quot;/RnD/assets/learningenabledsystems.png&quot; alt=&quot;LES&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/autochair.png&quot; alt=&quot;autochair.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/RnD/assets/autochair.png&quot; alt=&quot;autochair.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;sim&quot;&gt;SIM&lt;/h1&gt;
 
 &lt;p&gt;Project | Related Work
 ——–|—————-&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/sim.png&quot; alt=&quot;sim&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/RnD/assets/sim.png&quot; alt=&quot;sim&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;ballbot&quot;&gt;Ballbot&lt;/h1&gt;
 
@@ -557,7 +557,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/f110.png&quot; alt=&quot;f110&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/RnD/assets/f110.png&quot; alt=&quot;f110&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;roomba-testbed&quot;&gt;Roomba Testbed&lt;/h1&gt;
 
@@ -606,7 +606,7 @@
 &lt;p&gt;Project | Related Work
 ——–|—————-&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/hololens.png&quot; alt=&quot;hololens&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/RnD/assets/hololens.png&quot; alt=&quot;hololens&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;alternative-controls&quot;&gt;Alternative Controls&lt;/h1&gt;
 
@@ -653,7 +653,7 @@
 &lt;p&gt;Project | Related Work
 ——–|—————-&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/softwareplatform.png&quot; alt=&quot;Software Development&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/RnD/assets/softwareplatform.png&quot; alt=&quot;Software Development&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h1&gt;
 
