@@ -59,16 +59,25 @@ for the project. It has the nameing scheme of <code class="highlighter-rouge">pr
 <p>Follow the links in the table of contents below to learn how to set up a
 local copy of this site and create and maintain documentation.</p>
 
-<p>A reminder that you can use the <a href="https://github.com/Max-Mobility/RnD/edit/master/README.md">editor on
-GitHub</a> to
-maintain and preview the content of the site.</p>
-
-<p>Whenever you commit to this repository, GitHub Pages will run
-<a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in this site, from the
-content in your Markdown files.</p>
-
 <p><strong>All documentation on this site will be made using markdown.</strong> No other
 knowledge should be necessary to get started.</p>
+
+<p>For quick reference, the following are useful commands.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#make sure you're in the right directory, assuming it is named 'RnD' for this example</span>
+<span class="nb">cd</span> ~/RnD
+
+<span class="c"># view site locally</span>
+bundle <span class="nb">exec </span>jekyll serve
+
+<span class="c"># commit changes once everything is in order</span>
+git add <span class="nb">.</span> <span class="c"># '.' is a placeholder, but if used will add the current directory</span>
+git commit <span class="nt">-m</span> <span class="s2">"[commit message]"</span>
+git push
+
+<span class="c"># build and push site</span>
+./buildSite
+</code></pre></div></div>
 
 </p>
 
