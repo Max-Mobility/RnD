@@ -22,7 +22,8 @@ you need!
 
 First, follow the [instructions for installing
 jekyll](https://jekyllrb.com/docs/installation/) on your local
-system. Windows users: [godspeed](https://jekyllrb.com/docs/windows/)
+system.  
+Windows users: [godspeed](https://jekyllrb.com/docs/windows/)
 
 Test your installation by creating a dummy site 
 
@@ -47,16 +48,20 @@ documentation site!
 
 ```bash
 # Move to the directory containing the site's repo
-cd [directory]
+#Assuming that the site is located at ~/RnD
+cd ~/RnD
+
+#install necessary dependencies for the site
+bundle install
 
 # Build and preview
 bundle exec jekyll serve
 
-# Now browse to http://localhost:4000/RnD
+# Now browse to http://localhost:4000/RnD/
 ```
 
 >info "localhost:4000/RnD"
-> Navigating to `localhost:4000` without `/RnD` will show a `404 Not
+> Navigating to `localhost:4000` without `/RnD/` will show a `404 Not
 > Found` error. This is normal! Click any of the links on the 404 page
 > and they should take you to working pages.
 
