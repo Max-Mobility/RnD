@@ -3,7 +3,7 @@ layout: page
 title: Writing Documentation
 ---
 
-# Creating a new documentation page
+## Creating a new documentation page
 
 A new page for your documentation project can be made simply by copying and renaming the `project_post_template.md` file located in `_templates` to your local project directory.
 
@@ -14,7 +14,7 @@ cp _templates/project_post_template.md _my-project/page.md
 
 Then edit the front matter within the new file to properly reflect the title of the page. Note that this title is also what is shown in the table of contents on your project's landing page.
 
-# Updating the project's table of contents
+## Updating the project's table of contents
 
 > note ""
 > By default, a table of contents is generated linking to every separate markdown file within a project's directory (excluding the about page). 
@@ -70,7 +70,7 @@ The resulting table of contents that is generated would be
 [This is page two](writing_documentation.md)
 
 
-# Adding images and linking to other pages
+## Adding images and linking to other pages
 
 Since this is markdown, [the usual markdown conventions apply](markdown.md).
 
@@ -108,7 +108,7 @@ Images can be inserted using standard markdown:
 Where src can be either an online url or another relative path. If you have many images localy, consider creating an `images` or `figures` folder within your project folder to contain them.
 
 
-# Adding block callouts/alerts
+## Adding block callouts/alerts
 
 Blocked-styled content is enabled via the (Premonition)[https://github.com/amedia/premonition] plugin.  
 
