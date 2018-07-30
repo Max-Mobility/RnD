@@ -52,8 +52,13 @@ cd [directory]
 # Build and preview
 bundle exec jekyll serve
 
-# Now browse to http://localhost:4000
+# Now browse to http://localhost:4000/RnD
 ```
+
+>info "localhost:4000/RnD"
+> Navigating to `localhost:4000` without `/RnD` will show a `404 Not
+> Found` error. This is normal! Click any of the links on the 404 page
+> and they should take you to working pages.
 
 
 
