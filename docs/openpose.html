@@ -43,6 +43,14 @@
 <p><p><a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">Git Repo</a></p>
 
 <p>OpenPose represents the first real-time multi-person system to jointly detect human body, hand, and facial keypoints (in total 135 keypoints) on single images.</p>
+
+<blockquote>
+  <p>note “Installing on a system with ROS”
+Ros installs its own version of opencv. In order to properly build
+openpose with opencv-opengl support, first build opencv from source
+with opengl enabled. Update <code class="highlighter-rouge">LD_LIBRARY_PATH</code> and <code class="highlighter-rouge">CMAKE_PREFIX_PATH</code>
+to point to the installed library, normally at <code class="highlighter-rouge">/usr/local/lib</code></p>
+</blockquote>
 </p>
 
 <h1 id="contents">Contents</h1>
