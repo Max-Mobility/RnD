@@ -40,7 +40,8 @@ sudo apt-get autoremove
 sudo apt-get autoclean
 sudo rm -rf /usr/local/cuda*
 ```
-NOTE: zsh requires that you issue the command ```sudo apt-get purge "nvidia*"``` instead.
+> note ""
+> zsh requires that you issue the command ```sudo apt-get purge "nvidia*"``` instead.
 
 # Installing the CUDA toolkit 
 Navigate to the [CUDA Toolkit Download Page](https://developer.nvidia.com/cuda-90-download-archive) and select the options for your operating system. 
@@ -52,7 +53,8 @@ sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/
 sudo apt-get update
 sudo apt-get install cuda=9.0.176-1
 ```
-NOTE: These commands are for Ubuntu 16.04. For 17.10, run ```sudo dpkg -i cuda-repo-ubuntu1710_9.2.88-1_amd64.deb``` instead.
+> note ""
+> These commands are for Ubuntu 16.04. For 17.10, run ```sudo dpkg -i cuda-repo-ubuntu1710_9.2.88-1_amd64.deb``` instead.
 
 Verify that the installation was successful by navigating to ```/usr/local/cuda-9.0```. the directory structure should be similar to the one shown below.
 
