@@ -11,9 +11,9 @@
 <meta property="og:description" content="Idea" />
 <meta property="og:site_name" content="rnd" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-08-01T22:08:20-05:00" />
+<meta property="article:published_time" content="2018-08-02T14:00:54-05:00" />
 <script type="application/ld+json">
-{"description":"Idea","@type":"BlogPosting","url":"/RnD/mobility-unlimited/product-overview.html","headline":"Product Overview","dateModified":"2018-08-01T22:08:20-05:00","datePublished":"2018-08-01T22:08:20-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/RnD/mobility-unlimited/product-overview.html"},"@context":"http://schema.org"}</script>
+{"description":"Idea","@type":"BlogPosting","url":"/RnD/mobility-unlimited/product-overview.html","headline":"Product Overview","dateModified":"2018-08-02T14:00:54-05:00","datePublished":"2018-08-02T14:00:54-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/RnD/mobility-unlimited/product-overview.html"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/RnD/assets/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/><link type="application/atom+xml" rel="alternate" href="/RnD/feed.xml" title="rnd" /></head>
@@ -43,9 +43,9 @@
   <div class="post-content">
     <h2 id="idea">Idea</h2>
 
-<p>A <em>smart joystick</em> that aids the user in navigating their world.</p>
+<p>A <em>smart joystick</em> that aids the user in navigating their world</p>
 
-<p>Specifically a <em>plug-n-play</em> device targeting people with ALS to
+<p>Specifically a <em>plug-and-play (PnP)</em> device targeting people with ALS to
 provide a sliding scale of support throughout their lives.</p>
 
 <p>This device will:</p>
@@ -92,7 +92,7 @@ movement, all the way to gaze detection.</p>
 
 <ol>
   <li>Novel, low-cost implementation of advanced procedures such as
-gaze-tracking and obstacle detection.</li>
+gaze-tracking and obstacle detection</li>
   <li>Novel techniques for <code class="highlighter-rouge">collaboration</code> between the user and device.</li>
 </ol>
 
@@ -109,31 +109,31 @@ gaze-tracking and obstacle detection.</li>
   </thead>
   <tbody>
     <tr>
-      <td>*Jetson TX2</td>
+      <td>Jetson TX2</td>
       <td>Embedded System</td>
       <td>The brains of the unit. Conducts all onboard processing, from eye-gaze tracking to people dectection to obstacle avoidance</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>*User-Facing Camera</td>
+      <td>User-Facing Camera</td>
       <td>Sensor</td>
       <td>Provides a video stream of the user for use in affect and intent determination. Starting with eye-gaze for now.</td>
       <td>At least 1</td>
     </tr>
     <tr>
-      <td>*Forward-Facing Camera</td>
+      <td>Forward-Facing Camera</td>
       <td>Sensor</td>
       <td>Provides a video stream for obstacle and people detection.</td>
       <td>At least 1</td>
     </tr>
     <tr>
-      <td>*IMU</td>
+      <td>IMU</td>
       <td>Sensor</td>
       <td>6-9 axis imu for use in sensor fusion processes. Possibly useful for path planning and intent detection.</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>*Inductive Joystick</td>
+      <td>Inductive Joystick</td>
       <td>Joystick</td>
       <td>Typical JSM joystick for controlling the chair</td>
       <td>1</td>
@@ -144,7 +144,7 @@ gaze-tracking and obstacle detection.</li>
 <div class="premonition info"><div class="fa fa-info-circle"></div><div class="content"><p class="header">RGB and FLIR Cameras</p><p>The cheapest and easiest solution for our image processing needs is
 the standard RGB camera. Unfortunately, the performance and
 reliability of an RGB camera can degrade when in extremely bright or
-dark conditions.<br />
+dark conditions
 A solution to this is the use of a FLIR thermal camera. This type of
 camera is resistant to glare and lighting changes, and can provide
 another stream of data for our image processing. The caveat is the
@@ -159,6 +159,17 @@ addition of another, more expensive camera.</p>
   <li>Eye-Gaze Control</li>
 </ul>
 
+<p>These control aspects will function from the same input device, which
+will adapt alongside the user so that they can learn and use a single
+input device as their ability changes. Such adaptability will allow
+decrease the burden on the healthcare system, the technicians, and the
+clinicians who would normally have to fund, provide, configure, and
+manage the transition between different input devices. Additionally,
+by allowing the user access to more capable control inputs which can
+keep them in control of their chair for longer, they will be able to
+maintain their independence and their mobility for longer, thus
+increasing their quality of life.</p>
+
 <h3 id="joystick-semi-autonomy">Joystick Semi-Autonomy</h3>
 
 <div class="premonition note"><div class="fa fa-check-square"></div><div class="content"><p class="header">TODO</p><p>This is the most basic mode of collaborative control. The user
@@ -168,6 +179,21 @@ Use techniques such as a vector field histogram and shared control</p>
 
 
 </div></div>
+<p>The semi-autonomous joystick input mode provides a superior level of
+control and independence over a standard joystick and is designed to
+help the user better navigate the world around them. Associated with
+navigation is the cognitive load of keeping track of the changing
+environment around you, which can be especially difficult and
+near-impossible because the chair itself obstructs your view and
+hearing of the world. The smart joystick takes care of these issues by
+allowing the user to give the general intention - that is the
+direction they want to go or the person they want to follow - and the
+chair can (optionally) manage the speed and steering adjustments to
+keep them on that course. Such a feature is useful for easily
+navigating up/down a ramp, through a doorway or hallway, or along a
+sidewal. In such scenarios, the smart joystick can automatically
+adjust for environmental conditions such as cross-slope or obstacles.</p>
+
 <h3 id="head-tilt-control">Head-Tilt Control</h3>
 
 <div class="premonition note"><div class="fa fa-check-square"></div><div class="content"><p class="header">TODO</p><p>Everything the joystick does, but with an additiona layer of Open
@@ -198,7 +224,7 @@ system to react accordingly.</p>
 
 <h3 id="depth-map-generation">Depth Map Generation</h3>
 
-<div class="premonition note"><div class="fa fa-check-square"></div><div class="content"><p class="header">TODO</p><p>Monocular Depth Estimation via a deep model 
+<div class="premonition note"><div class="fa fa-check-square"></div><div class="content"><p class="header">TODO</p><p>Monocular Depth Estimation via a deep model
 https://arxiv.org/abs/1806.01260</p>
 
 
@@ -227,29 +253,34 @@ obstacles and drivable surfaces</p>
 <h2 id="contextual-awareness">Contextual Awareness</h2>
 
 <p><code class="highlighter-rouge">Contextual Awareness</code> is the process of informed decision making in
-regards to intent determination</p>
+regards to intent determination. This involves first identifying the
+user’s actions and then trying to determine a best course of action
+based on the environment and these actions. This contextual awareness
+is what will help determine the amount of autonomy vs manual control
+of the system at any point.</p>
+
+<p>For example, say that a user indicates that they want to move forward,
+if the environment is free of obstacles, the system should allow
+mainly manual control of the system, and let the user move forward of
+their own accord, even if the actual path traveled ends up being
+slightly meandering. However, if there is a large curb or people
+around the chair, the chair should provide a larger level of
+autonomous control (while still considering the user’s input!) to
+ensure no collections occur.</p>
 
 <h3 id="intent-determination">Intent Determination</h3>
+
+<p>Based on the sensor inputs available (joystick/head-tilt/eye-gaze and
+camera feeds) general guesses can be made to the user’s intent. This
+can be something as low level as <code class="highlighter-rouge">move around this obstacle</code>, <code class="highlighter-rouge">go
+through this doorway</code>, or as high level as <code class="highlighter-rouge">follow alongside this
+person</code>.</p>
 
 <div class="premonition note"><div class="fa fa-check-square"></div><div class="content"><p class="header">TODO</p><p>Talk about determination of the user’s goal or intent based on the
 data available. Example being using the joystick’s input to determine
 the goal location to travel towards, and incorporating the
 gaze-direction to identify targets such as “go through a doorway” or
 “approach this person”.</p>
-
-
-</div></div>
-<h3 id="affect-recognition">Affect Recognition</h3>
-<div class="premonition note"><div class="fa fa-check-square"></div><div class="content"><p class="header">TODO</p><p>I think this aspect of the device should be nixxed for now. Not
-enough examples of usage and how it improves control.</p>
-
-<p>Talk about higher-level techniques that can be incorporated since we
-have a camera facing the user and are already actively analyzing
-their face. Determination of aspects such as focus, mood, stress,
-etc. Provides more context for decision making.<br />
-Example: Smiling while eye-gaze is targetting a person and the
-joystick is pointed towards them indicates that the user’s intent is
-to approach the individual.</p>
 
 
 </div></div>
