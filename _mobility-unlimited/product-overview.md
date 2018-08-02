@@ -56,11 +56,11 @@ This product wil stand out in several ways:
 
 Component | Type | Description | Quantity
 ----------|------|-------------|---------
-*Jetson TX2 | Embedded System | The brains of the unit. Conducts all onboard processing, from eye-gaze tracking to people dectection to obstacle avoidance | 1
-*User-Facing Camera | Sensor | Provides a video stream of the user for use in affect and intent determination. Starting with eye-gaze for now. | At least 1
-*Forward-Facing Camera | Sensor | Provides a video stream for obstacle and people detection. | At least 1
-*IMU | Sensor | 6-9 axis imu for use in sensor fusion processes. Possibly useful for path planning and intent detection. | 1
-*Inductive Joystick | Joystick | Typical JSM joystick for controlling the chair | 1
+Jetson TX2 | Embedded System | The brains of the unit. Conducts all onboard processing, from eye-gaze tracking to people dectection to obstacle avoidance | 1
+User-Facing Camera | Sensor | Provides a video stream of the user for use in affect and intent determination. Starting with eye-gaze for now. | At least 1
+Forward-Facing Camera | Sensor | Provides a video stream for obstacle and people detection. | At least 1
+IMU | Sensor | 6-9 axis imu for use in sensor fusion processes. Possibly useful for path planning and intent detection. | 1
+Inductive Joystick | Joystick | Typical JSM joystick for controlling the chair | 1
 
 > info "RGB and FLIR Cameras"
 > The cheapest and easiest solution for our image processing needs is
@@ -164,9 +164,28 @@ system to react accordingly.
 ## Contextual Awareness
 
 `Contextual Awareness` is the process of informed decision making in
-regards to intent determination
+regards to intent determination. This involves first identifying the
+user's actions and then trying to determine a best course of action
+based on the environment and these actions. This contextual awareness
+is what will help determine the amount of autonomy vs manual control
+of the system at any point. 
+
+For example, say that a user indicates that they want to move forward,
+if the environment is free of obstacles, the system should allow
+mainly manual control of the system, and let the user move forward of
+their own accord, even if the actual path traveled ends up being
+slightly meandering. However, if there is a large curb or people
+around the chair, the chair should provide a larger level of
+autonomous control (while still considering the user's input!) to
+ensure no collections occur.
 
 ### Intent Determination
+
+Based on the sensor inputs available (joystick/head-tilt/eye-gaze and
+camera feeds) general guesses can be made to the user's intent. This
+can be something as low level as `move around this obstacle`, `go
+through this doorway`, or as high level as `follow alongside this
+person`.
 
 > note "TODO"
 >Talk about determination of the user's goal or intent based on the
@@ -174,19 +193,6 @@ regards to intent determination
 >the goal location to travel towards, and incorporating the
 >gaze-direction to identify targets such as "go through a doorway" or
 >"approach this person".
-
-### Affect Recognition
-> note "TODO"
->I think this aspect of the device should be nixxed for now. Not
->enough examples of usage and how it improves control.
->
->Talk about higher-level techniques that can be incorporated since we
->have a camera facing the user and are already actively analyzing
->their face. Determination of aspects such as focus, mood, stress,
->etc. Provides more context for decision making.
->Example: Smiling while eye-gaze is targetting a person and the
->joystick is pointed towards them indicates that the user's intent is
->to approach the individual.
 
 ### User-Device Collaboration
 > note "TODO"
