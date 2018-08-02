@@ -4,7 +4,7 @@ title: Product Overview
 ---
 ## Idea
 
-A *smart joystick* that aids the user in navigating their world.  
+A *smart joystick* that aids the user in navigating their world
 
 Specifically a *plug-n-play* device targeting people with ALS to
 provide a sliding scale of support throughout their lives.
@@ -22,13 +22,13 @@ This device will:
 > In its simplest form, people can be treated as just another obstacle
 > -- something to be navigated around in the most efficient or
 > quickest way possible.
-> 
+>
 > But in reality, this is not feasible. An individual has their own
 > `social space` to be considered. In most cases it is better to
 > travel behind an individual than in front when moving around
 > them. If two or more individuals are having a conversation, it would
 > be very rude to force our way between them.
-> 
+>
 > Additionally, sometimes a person might not be just another obstacle,
 > but instead the user's goal destination. We might want to approach
 > them or follow at a set distance.
@@ -49,7 +49,7 @@ movement, all the way to gaze detection.
 This product wil stand out in several ways:
 
 1. Novel, low-cost implementation of advanced procedures such as
-   gaze-tracking and obstacle detection.  
+   gaze-tracking and obstacle detection
 2. Novel techniques for `collaboration` between the user and device.
 
 ## Technology
@@ -66,7 +66,7 @@ Component | Type | Description | Quantity
 > The cheapest and easiest solution for our image processing needs is
 > the standard RGB camera. Unfortunately, the performance and
 > reliability of an RGB camera can degrade when in extremely bright or
-> dark conditions.  
+> dark conditions
 > A solution to this is the use of a FLIR thermal camera. This type of
 > camera is resistant to glare and lighting changes, and can provide
 > another stream of data for our image processing. The caveat is the
@@ -114,7 +114,7 @@ system to react accordingly.
 ### Depth Map Generation
 
 > note "TODO"
-> Monocular Depth Estimation via a deep model 
+> Monocular Depth Estimation via a deep model
 > https://arxiv.org/abs/1806.01260
 
 ### Visual Odometry
@@ -152,12 +152,12 @@ regards to intent determination
 ### Affect Recognition
 > note "TODO"
 >I think this aspect of the device should be nixxed for now. Not
->enough examples of usage and how it improves control.  
+>enough examples of usage and how it improves control.
 >
 >Talk about higher-level techniques that can be incorporated since we
 >have a camera facing the user and are already actively analyzing
 >their face. Determination of aspects such as focus, mood, stress,
->etc. Provides more context for decision making.  
+>etc. Provides more context for decision making.
 >Example: Smiling while eye-gaze is targetting a person and the
 >joystick is pointed towards them indicates that the user's intent is
 >to approach the individual.
@@ -166,7 +166,7 @@ regards to intent determination
 > note "TODO"
 >Essentially an explanation of Human-Robot interaction and how this
 >is a critical element to allow the user to feel as independent as
->possible 
+>possible
 ## Target Demonstrables for Finalist Application
 
 The goal for the finalist application should be to demonstrate working
