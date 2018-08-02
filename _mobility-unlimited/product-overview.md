@@ -6,7 +6,7 @@ title: Product Overview
 
 A *smart joystick* that aids the user in navigating their world
 
-Specifically a *plug-n-play* device targeting people with ALS to
+Specifically a *plug-and-play (PnP)* device targeting people with ALS to
 provide a sliding scale of support throughout their lives.
 
 This device will:
@@ -77,6 +77,17 @@ Component | Type | Description | Quantity
 * Head-Tilt Control
 * Eye-Gaze Control
 
+These control aspects will function from the same input device, which
+will adapt alongside the user so that they can learn and use a single
+input device as their ability changes. Such adaptability will allow
+decrease the burden on the healthcare system, the technicians, and the
+clinicians who would normally have to fund, provide, configure, and
+manage the transition between different input devices. Additionally,
+by allowing the user access to more capable control inputs which can
+keep them in control of their chair for longer, they will be able to
+maintain their independence and their mobility for longer, thus
+increasing their quality of life.
+
 ### Joystick Semi-Autonomy
 
 > note "TODO"
@@ -84,6 +95,21 @@ Component | Type | Description | Quantity
 > steers with the joystick as usual, but the obstacle detection and
 > environmental awareness of the device aid in obstacle avoidance.
 > Use techniques such as a vector field histogram and shared control
+
+The semi-autonomous joystick input mode provides a superior level of
+control and independence over a standard joystick and is designed to
+help the user better navigate the world around them. Associated with
+navigation is the cognitive load of keeping track of the changing
+environment around you, which can be especially difficult and
+near-impossible because the chair itself obstructs your view and
+hearing of the world. The smart joystick takes care of these issues by
+allowing the user to give the general intention - that is the
+direction they want to go or the person they want to follow - and the
+chair can (optionally) manage the speed and steering adjustments to
+keep them on that course. Such a feature is useful for easily
+navigating up/down a ramp, through a doorway or hallway, or along a
+sidewal. In such scenarios, the smart joystick can automatically
+adjust for environmental conditions such as cross-slope or obstacles.
 
 ### Head-Tilt Control
 
